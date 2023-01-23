@@ -12,5 +12,12 @@ def sort(number):
             if number[j] < number[minimum_position]:
                 minimum_position = j
 
-        
+        swap = number[i]
+        number[i] = number[minimum_position]
+        number[minimum_position] = swap
 
+        print(number)
+
+sort(number)
+
+print(number)
