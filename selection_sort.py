@@ -3,4 +3,14 @@ print("\t***** JIMWELL L. MANGULABNAN *****")
 print("\t********** BSCOE 2-2 *************")
 print()
 
-nums = [7, 62, 85, 72, 45, 77, 63, 5, 88, 30]
+number = [7, 62, 85, 72, 45, 77, 63, 5, 88, 30]
+
+def sort(number):
+    for i in range(7):
+        minimum_position = i
+        for j in range(i,10):
+            if number[j] < number[minimum_position]:
+                minimum_position = j
+
+        
+
