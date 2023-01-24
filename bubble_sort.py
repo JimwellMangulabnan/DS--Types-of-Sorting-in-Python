@@ -16,4 +16,6 @@ def BubbleSort(numbers):
             print("\n\t\t\tThe index value of first element is: ", j)
             print("\t\t\tThe index value of second element is: ",j+1)
             print("\t\t\tThis is current arrangement of array: \n\t\t\t====>",numbers,"\n")
-            
+            if numbers[j] > numbers[j + 1]:
+                numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+                
