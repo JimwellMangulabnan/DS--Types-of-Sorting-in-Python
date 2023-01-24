@@ -8,4 +8,10 @@ print()
 
 number = [7, 62, 85, 72, 45, 77, 63, 5, 88, 30]
 
-
+def insertion(number):
+    for a in range(1, len(number)):
+        b = a 
+        while b > 0 and number[b] < number[b-1]:
+            number[b-1], number[b] = number[b], number[b-1]
+            b-=1
+            
