@@ -18,4 +18,6 @@ def BubbleSort(numbers):
             print("\t\t\tThis is current arrangement of array: \n\t\t\t====>",numbers,"\n")
             if numbers[j] > numbers[j + 1]:
                 numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
-                
+                print("\n\t\t\t\tThe first element will be switched \n\t\t\tbecause it is greater than the second element.")
+                print("\n\t\t\tThis is the array that has been updated.: \n\t\t\t====>",numbers)
+
