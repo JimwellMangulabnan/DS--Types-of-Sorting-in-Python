@@ -21,3 +21,6 @@ def BubbleSort(numbers):
                 print("\n\t\t\t\tThe first element will be switched \n\t\t\tbecause it is greater than the second element.")
                 print("\n\t\t\tThis is the array that has been updated.: \n\t\t\t====>",numbers)
 
+BubbleSort(number)
+print("\t\t\t*****---This is the Final sorted array---*****\n\t\t\t====>",number)
+print()
