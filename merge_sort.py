@@ -19,4 +19,11 @@ def mergeSort(number):
         mergeSort(left)
         mergeSort(right)
 
+        i = 0
+        j = 0
+
+        k = 0
+
        
+
+
