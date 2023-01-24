@@ -33,4 +33,9 @@ def partition(arr, left, right):
             arr[i], arr[j] = arr[j], arr[i]
             print("\n\t\t\tThis is the array that has been updated: \n\t\t\t---->",arr)
 
-    
+    if arr[i] > pivot:
+        arr[i], arr[right] = arr[right], arr[i]
+        print("\n\t\t\tThis is the array that has been updated: \n\t\t\t---->", arr)
+    return i
+
+
