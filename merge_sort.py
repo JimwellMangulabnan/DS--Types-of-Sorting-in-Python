@@ -47,5 +47,10 @@ def mergeSort(number):
             k += 1
 
 
+        print("\n\t\t\tThe sorted array is now displayed. \n\t\t\t---->",number)
+
+mergeSort(number)
+print("\n\t\t\t~~~~~~~~This is the Final sorted array~~~~~~~~~\n\t\t\t ====>",number)
+print()
 
 
