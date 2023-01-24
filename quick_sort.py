@@ -38,4 +38,6 @@ def partition(arr, left, right):
         print("\n\t\t\tThis is the array that has been updated: \n\t\t\t---->", arr)
     return i
 
-
+quickSort(number, 0, len(number) - 1)
+print("\n\t\t\t~~~~~~~~This is the Final sorted array~~~~~~~~~\n\t\t\t ====>",number)
+print()
