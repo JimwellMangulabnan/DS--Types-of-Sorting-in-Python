@@ -17,4 +17,20 @@ def quickSort(array, left, right):
         quickSort(array, left, pi - 1)
         quickSort(array, pi + 1, right)
 
+def partition(arr, left, right):
+    i = left
+    j = right - 1
+    pivot = arr[right]
+    print("\n\t\t\tThis is the given Pivot: ", pivot)
+    while i < j:
+        while i < right and arr[i] < pivot:
+            i += 1
+            print("\n\t\t\tIndex value: ", i, "\n\t\t\tThe element is: ", arr[i])
+        while j > left and arr[j] >= pivot:
+            j -= 1
+            print("\n\t\t\tIndex value: ", j, "\n\t\t\tThe element is: ", arr[j])
+        if i < j:
+            arr[i], arr[j] = arr[j], arr[i]
+            print("\n\t\t\tThis is the array that has been updated: \n\t\t\t---->",arr)
 
+    
