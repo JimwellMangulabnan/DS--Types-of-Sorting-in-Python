@@ -14,4 +14,6 @@ def insertion(number):
         while b > 0 and number[b] < number[b-1]:
             number[b-1], number[b] = number[b], number[b-1]
             b-=1
-            
+            print("\n\t\t\tThis is step by step process in insertion sort: \n\n\t\t\t====>", number)
+
+
