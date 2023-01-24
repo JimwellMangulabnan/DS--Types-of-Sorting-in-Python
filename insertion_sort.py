@@ -16,4 +16,6 @@ def insertion(number):
             b-=1
             print("\n\t\t\tThis is step by step process in insertion sort: \n\n\t\t\t====>", number)
 
-
+insertion(number)
+print("\n\t\t\t__________This is the Final sorted array________\n\t\t\t ====>",number)
+print()
