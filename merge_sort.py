@@ -8,7 +8,7 @@ print()
 
 number = [7, 62, 85, 72, 45, 77, 63, 5, 88, 30]
 
-print("\t\t\trray:",number)
+print("\t\t\tArray:",number)
 def mergeSort(number):
     if len(number) > 1:
         mid = len(number) // 2
@@ -52,5 +52,3 @@ def mergeSort(number):
 mergeSort(number)
 print("\n\t\t\t~~~~~~~~This is the Final sorted array~~~~~~~~~\n\t\t\t ====>",number)
 print()
-
-
